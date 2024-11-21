@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -25,6 +26,7 @@ body {
     height: 40px;
     width: 40px;
     margin-right: 5dvh;
+    cursor: pointer;
 }
 
 .nav-bar {
@@ -35,17 +37,17 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 40px;
-    margin-right: 21dvh;
+    gap: 35px;
+    margin-right: 25dvh;
 }
 
 .nav-links a {
     position: relative; 
     text-decoration: none;
     color: #000000;
-    font-size: 1.3dvh;
+    font-size: 1.5dvh;
     letter-spacing: 0.1em;
-    font-weight: 400;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
@@ -162,7 +164,43 @@ body {
     border: 1px solid #136b4a;
 }
 
-.main-content {
-    background-color: #136b4a;
-    padding: 20dvh;
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-1 {
+    display: flex;
+    background-color: #A488C0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.banner-0-1 img {
+    height: auto;
+    width: 100%;
+}
+
+.containers-main {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 32px 16px
+}
+
+.containers-main h2 {
+    font-size: 2.125rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.containers-main p {
+    font-weight: 200;
+    line-height: 1.5;
 }
